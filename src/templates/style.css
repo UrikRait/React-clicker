@@ -1,0 +1,36 @@
+.container{
+    margin: 0 auto;
+}
+.buttons__app{
+    display: flex;  
+}
+.clicker{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:40px 0
+}
+.json__content{
+    font-size: 16px;
+}
+.buy__button{
+    box-shadow: 1px 1px #215a9c, 2px 2px #215a9c, 3px 3px #215a9c, 4px 4px #215a9c, 5px 5px #215a9c, 6px 6px #215a9c, 7px 7px #215a9c, 8px 8px #215a9c;
+}
+.clicker__button{
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-tap-highlight-color: transparent;
+    font-size: 30px;
+}
+.click__button{
+
+    box-shadow: 1px 1px #14532d, 2px 2px #14532d, 3px 3px #14532d, 4px 4px #14532d, 5px 5px #14532d, 6px 6px #14532d, 7px 7px #14532d, 8px 8px #14532d;
+
+}
+.clicker__button:hover{
+    transform: translateY(-2px);
+}
+.clicker__button:active{
+    transform: translateY(2px);
+    box-shadow: none;
+}
